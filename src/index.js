@@ -6,7 +6,7 @@ class Wingu{
      * @param {string} usernameFieldId 
      * @param {string} passwordFieldId 
      */
-    constructor(usernameFieldId,passwordFieldId,){
+    constructor(usernameFieldId,passwordFieldId){
         this.usernameField = document.getElementById(usernameFieldId);
         this.passwordField = document.getElementById(passwordFieldId);
         this.recorder = new PasswordDwellTimeRecorder(); 
