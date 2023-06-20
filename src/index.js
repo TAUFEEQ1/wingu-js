@@ -22,7 +22,7 @@ class Wingu{
             this.recorder.stopRecording(event.key);
         }
     }
-    login(cb){
+    login(cb,catch_cb){
         const dwells = this.recorder.getDwellTimes(this.passwordField.value);
         axios.post(
             'https://wingu-api.taufeeq.dev/login',
@@ -30,7 +30,7 @@ class Wingu{
         ).then(res=>{
             cb(res);
         }).catch(err=>{
-            
+            catch_cb(err)
         });
     }
 
