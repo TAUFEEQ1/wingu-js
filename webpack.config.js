@@ -4,7 +4,7 @@ module.exports = {
     mode:'development',
     output: {
       path: path.resolve(__dirname, 'dist'),
-      filename: 'wingu.js',
+      filename: 'wingu.min.js',
     },
     module: {
         rules: [
