@@ -1,6 +1,6 @@
 {
   "name": "wingu",
-  "version": "0.0.35",
+  "version": "0.0.40",
   "description": "Wingu is a cloud authentication solution employing behavioural biometrics with two factor authentication.",
   "main": "src/index.js",
   "scripts": {
